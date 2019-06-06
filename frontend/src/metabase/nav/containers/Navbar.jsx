@@ -54,10 +54,8 @@ const AdminNavItem = ({ name, path, currentPath }) => (
   </li>
 );
 
-const DefaultSearchColor = color(colors.brand)
-  .lighten(0.07)
-  .string();
-const ActiveSearchColor = color(colors.brand)
+const DefaultSearchColor = "#BCC2CC";
+const ActiveSearchColor = color("#BCC2CC")
   .lighten(0.1)
   .string();
 
